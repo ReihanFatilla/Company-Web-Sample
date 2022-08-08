@@ -1,0 +1,233 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: whitesmoke;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+}
+
+header nav{
+    float: right;
+    top: 0;
+}
+
+header .brand{
+    float: left;
+}
+
+#brand h1{
+    color: white;
+    font-weight: 900;
+}
+
+#header_item {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+header{
+    padding: 30px 0;
+    height: 600px;
+    background-size: cover;
+    background-position: center center;
+    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5) , whitesmoke ), 
+    url(assets/company.jpeg);
+    background-size: cover;
+}
+
+#quality-boxes{
+    padding: 0% 10%;
+    display: flex;
+    margin: 100px 0px;
+}
+
+#quality-boxes .box{
+    text-align: center;
+    width: 33.33%;
+    padding: 3%;
+    transition: all .2s ease;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+#quality-boxes .box p{
+    margin: 0px 35px;
+    color: grey;
+    font-size: smaller;
+}
+
+#quality-boxes .box:hover{
+    transform: scale(1.1);
+    color: white ;
+    background-color: #116cff;
+}
+
+#quality-boxes .box:hover p{
+    color: rgb(232, 232, 232) ;
+}
+
+#quality-boxes .box:hover svg circle{
+    fill: white;
+}
+
+#quality-boxes .box:hover svg path{
+    fill: #116cff;
+}
+
+#quality-boxes .box svg{
+    width: 80px;
+}
+
+#quality-boxes .box svg, h3, p{
+    margin-bottom: 15px;
+}
+
+#boxes .box .child{
+    margin: 10px;
+}
+
+
+header li {
+    float: left;
+    display: inline;
+    margin: 0 20px;
+}
+
+header a {
+    color: white;
+    text-decoration: none;
+    font-size: large;
+    text-transform: uppercase;
+    position: relative;
+}
+
+header a:hover{
+    color: rgb(196, 196, 196);
+}
+
+#section-subtitle {
+    text-align: center;
+    margin-top: 75px;
+    font-size: x-large;
+    color: rgb(77, 77, 77);
+    font-weight: lighter;
+}
+
+#detail-subtitle {
+    text-align: center;
+    font-size: x-large;
+    color: white;
+    margin-bottom: 75px;
+    font-weight: lighter;
+}
+
+#showcase {
+    text-align: center;
+    color: #ffffff;
+    position: absolute;
+    top: 37.5%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#showcase h1{
+    font-size: 5em;
+}
+
+#showcase p{
+    color: whitesmoke;
+    margin: 0px 40px;
+}
+
+#detail-boxes .box{
+    width: 25%;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin: 0px 5%;
+    background-color: whitesmoke;
+    border-radius: 10px;
+    transition: all .2s ease;
+    cursor: pointer;
+}
+
+#detail-boxes .box:hover {
+    transform: scale(1.1);
+}
+
+#detail-boxes .box img{
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+}
+
+#detail-boxes .box p{
+    object-fit: cover;
+    font-size: small;
+    color: gray;
+}
+
+#detail-boxes{
+    display: flex;
+    padding: 0px 7.5%;
+    justify-content: center;
+}
+
+#detail-section{
+    background: linear-gradient(to right, #023aa9, #116cff );
+    padding: 5%;
+}
+
+.detail-text{
+    padding: 5%;
+}
+
+#about-us-container{
+    display: flex;
+}
+
+#about-us {
+    padding: 5% 17.5%;
+}
+
+#about-us .box {
+    display: flex;
+}
+
+#about-us .box img{
+    width: 50%;
+    border-radius: 20px;
+}
+
+#about-us .box p{
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+    font-size: larger;
+}
+
+#about-subtitle {
+    text-align: center;
+    font-size: x-large;
+    color: rgb(77, 77, 77);
+    margin-bottom: 75px;
+    font-weight: lighter;
+}
+
+footer {
+    text-align: center;
+    background: linear-gradient(to right, #023aa9, #116cff );
+    color: white;
+    padding: 30px 0;
+}
