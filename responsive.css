@@ -1,0 +1,59 @@
+@media screen and (max-width: 1080px) {
+
+    header a{
+        font-size: medium;
+    }
+
+    #quality-boxes .box p{
+        margin: 0px 5px;
+        font-size: xx-small;
+    }
+
+    #detail-boxes{
+        display: flex;
+        padding: 0;
+        justify-content: center;
+    }
+
+    #detail-boxes .box{
+        width: 30%;
+        margin: 0px 2.5%;
+    }
+
+    #detail-section{
+        padding: 7.5%;
+    }
+    
+    #detail-boxes .box p{
+        font-size: .5rem;
+        color: gray;
+        margin-bottom: 5px;
+    }
+
+    #detail-boxes .box h3{
+        font-size: small;
+        margin-bottom: 5px;
+    }
+
+    #about-us .box p{
+        margin-left: 20px;
+        font-size: xx-small;
+        margin-bottom: 0;
+    }
+
+    #about-us {
+        padding: 5% 10%;
+    }
+
+    #about-subtitle, #section-subtitle, #detail-subtitle {
+        font-size: large;
+        margin-bottom: 40px;
+        font-weight: lighter;
+    }
+
+    footer {
+        padding: 15px 0;
+        font-size: small;
+    }
+
+}

@@ -90,7 +90,7 @@ header{
     width: 80px;
 }
 
-#quality-boxes .box svg, h3, p{
+#quality-boxes .box svg, h3, #quality-boxes p{
     margin-bottom: 15px;
 }
 
@@ -170,10 +170,10 @@ header a:hover{
 #detail-boxes .box img{
     width: 100%;
     border-radius: 10px 10px 0 0;
+    object-fit: cover;
 }
 
 #detail-boxes .box p{
-    object-fit: cover;
     font-size: small;
     color: gray;
 }
@@ -208,6 +208,7 @@ header a:hover{
 #about-us .box img{
     width: 50%;
     border-radius: 20px;
+    object-fit: cover;
 }
 
 #about-us .box p{
@@ -231,3 +232,5 @@ footer {
     color: white;
     padding: 30px 0;
 }
+
+
