@@ -1,7 +1,7 @@
 @media screen and (max-width: 1080px) {
 
     header a{
-        font-size: medium;
+        font-size: md;
     }
 
     #quality-boxes .box p{
@@ -10,39 +10,27 @@
     }
 
     #detail-boxes{
-        display: flex;
+        flex-direction: column;
         padding: 0;
-        justify-content: center;
+        margin-top: 10%;
     }
 
     #detail-boxes .box{
-        width: 30%;
-        margin: 0px 2.5%;
-    }
-
-    #detail-section{
-        padding: 7.5%;
+        width: 75%;
+        margin: 0px auto;
+        margin-bottom: 10%;
     }
     
-    #detail-boxes .box p{
-        font-size: .5rem;
-        color: gray;
-        margin-bottom: 5px;
-    }
-
-    #detail-boxes .box h3{
-        font-size: small;
-        margin-bottom: 5px;
-    }
-
-    #about-us .box p{
-        margin-left: 20px;
-        font-size: xx-small;
-        margin-bottom: 0;
+    #detail-section{
+        padding: 7.5%;
     }
 
     #about-us {
         padding: 5% 10%;
+    }
+
+    #about-us .box p{
+        font-size: small;
     }
 
     #about-subtitle, #section-subtitle, #detail-subtitle {
@@ -55,5 +43,6 @@
         padding: 15px 0;
         font-size: small;
     }
+    
 
 }
