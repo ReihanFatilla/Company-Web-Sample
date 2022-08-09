@@ -129,7 +129,7 @@ header a:hover{
     text-align: center;
     font-size: x-large;
     color: white;
-    margin-bottom: 75px;
+    margin-bottom: 100px;
     font-weight: lighter;
 }
 
@@ -186,7 +186,7 @@ header a:hover{
 
 #detail-section{
     background: linear-gradient(to right, #023aa9, #116cff );
-    padding: 5%;
+    padding: 7.5%;
 }
 
 .detail-text{
